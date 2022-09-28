@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .sub-navbar {
+      display: none !important;
+    }
+  }
+  
+.sub-navbar{
+
+    background-color: #000000;
+}
+
+
+.navbar{
+
+    background-color: #fff;
+}
+
+.searchIcon{
+
+    position: absolute;
+    right: 200px;
+    top :35px
+}
+
+.account{
+    text-align: center;
+}
+
+.nav-item{
+   
+    padding-left: 15px;
+   
+}
+
+.nav-link{
+
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.input{
+
+    
+    border: 2px solid black;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.account:hover{
+color: #ad4c0b;
+}
+
+/* section1 starts */
+
+
+.sec1_des{
+
+    padding: 3% 8%;
+}
+
+#section1{
+    background-color: #000000;
+    
+  }
+
+  @media only screen and (max-width: 500px) {
+    #section1{
+        text-align: center !important;
+    }
+    
+  }
+
+  #section1 h1{
+
+    font-family: 'Noto Sans';
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 10px;
+
+  }
+  
+ .sec1p1{
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+ }
+
+
+ .sec1p2{
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    padding-bottom: 5px;
+    letter-spacing: 0.5px;
+    color: #757575;
+ }
+
+ .sec1btn1{
+
+    color: #fff;
+    background-color: #fa6600;
+ }
+
+
+
+ 
+  /* section 1 ends */
+
+
+  
+  /* minisection1 starts */
+
+  .minisection1 {
+
+   padding: 5% 15%;
+   text-align: center;
+   margin-left: 3%;
+  }
+
+.minisection1 h1{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    
+}
+
+@media only screen and (max-width: 500px) {
+.minisection1
+{
+        text-align: center !important;
+        padding-left: 120px;
+    }
+    
+  }
+
+
+
+/* minisection1 ends */
+
+/* section2  starts */
+
+.section2{
+
+    padding: 3% 7%;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .section2
+    {
+            text-align: center !important;
+        }
+        
+      }
+
+     
+
+.section2 h5{
+    font-size: 17px;
+    line-height: 18px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #ad4c0b;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.section2 h1{
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section2 p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.sec2btn2{
+
+    color: #fff;
+    background-color: #fa6600;
+    font-size: 20px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+}
+
+ 
+   /* section2 ends */
+
+/* 
+section3 starts */
+
+.section3{
+
+    padding: 3% 8%;
+    background-color: #eeeceb;
+}
+
+.section3 h1{
+
+    font-size: 30px;
+    line-height: 21px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    
+   
+}
+
+
+.card img {
+
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+.card-body h5{
+    font-size: 21px;
+    line-height: 21px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+
+}
+
+.card-body p {
+
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+}
+
+
+/* 
+section3 ends */
+
+
+/* section4 starts */
+
+.section4{
+
+    padding: 6% 5%;
+    background-color: #eeeceb;
+}
+
+
+.section4 h6{
+
+    font-size: 17px;
+    text-align: left;
+    line-height: 18px;
+    color: #ad4c0b;
+    padding-bottom: 5px;
+}
+.section4 h4{
+
+    font-size: 25px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Noto Sans';
+    letter-spacing: 1;
+    padding-bottom: 5px;
+   
+    
+}
+
+.section4 p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .row4 {
+      
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .row4 {
+      
+        display: flex;
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+    
+
+  }
+
+
+/* section 4 ends */
+
+
+
+/* section5 starts */
+
+.section5{
+
+    padding: 3% 7%;
+}
+
+.section5 img{
+
+    height: 400px;
+    width: 540px;
+}
+
+@media only screen and (max-width: 500px) {
+    .section5 {
+        text-align: center;
+    }
+    
+
+  }
+
+/* section5 ends */
+
+/* section 5 banner starts */
+
+.sec5Banner{
+
+    background-color: #000000;
+    color: #fff;
+    padding: 3% 8%;
+    
+}
+@media only screen and (max-width: 900px) {
+    .sec5Banner h2,p{
+        text-align: left !important;
+    }
+
+    .s5B1{
+        
+       text-align: center !important;
+       margin-left: 130px;
+    }
+
+
+  }
+/* section 5 banner ends */
+
+
+/* 
+section 6 starts */
+
+.section6{
+
+    padding: 3% 8%;
+}
+
+
+.section6 img {
+
+    width: 350px;
+    height: 350px;
+    padding-bottom: 10px;
+}
+
+
+.section6 h5,h4 {
+
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+
+}
+
+.section6 p {
+
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 900px) {
+    
+.section6 img {
+
+    width: 550px;
+    height: 550px;
+}
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    
+    .section6 img {
+    
+        width: 430px;
+        height: 430px;
+    }
+    
+    
+      }
+    
+/* section 6 ends */
+
+
+/* 
+footer starts */
+
+.footer{
+
+    background-color: #000000;
+    color: #fff;
+}
+
+/* footer header ends */
+
+.footerHeader h1{
+
+    font-size: 32px;
+    text-align: left;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+}
+
+hr{
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer h4{
+
+    font-size: 21px;
+    text-align: left;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+   color: #fff;
+   padding-bottom: 6px;
+   letter-spacing: 0.5;
+}
+
+.footerBody{
+
+    padding: 3% 10%;
+}
+
+
+
+
+
+
+.footer p {
+
+    
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+   color: #fff;
+}
+
+.middleFooter{
+  align-items: center;
+  padding: 3% 12%;
+}
+
+.mobileMiddleFooter{
+
+  padding: 3% 22%;
+}
+
+
+
+.lowerFooter{
+
+    padding: 3% 7%;
+    align-items: center;
+   
+}
+.lowerFooter p{
+
+    color: #757575;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lowerFooter i {
+
+    padding-left: 35px;
+    font-size: 25px;
+}
+
+.lowerFooter input {
+
+height: 40px;
+width: 70%;
+
+}
+
+
+
+
+.mobileLowerFooter{
+
+    padding: 3% 7%;
+    align-items: center;
+   
+}
+.mobileLowerFooter p{
+
+    color: #757575;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 40px;
+}
+
+.mobileLowerFooter i {
+
+    padding-left: 40px;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.mobileLowerFooter input {
+
+height: 40px;
+width: 70%;
+margin-bottom: 30px;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .mobileLowerFooter
+    {
+            text-align: center !important;
+        }
+        
+      }
+
+/* 
+footer ends */
+
+
+
+/* footer ends */
